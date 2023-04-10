@@ -10,9 +10,9 @@ soc包含: 时钟+复位+CPU+总部线桥+外设
 
 ## resource-资源  
 github有两个开源的axi-crossbar, 进行简单的拼接就行  
-[axi-crossbar](https://github.com/dpretet/axi-crossbar)
+[axi-crossbar](https://github.com/dpretet/axi-crossbar)  
 axi-crossbar是一个4master-4slave的总线桥  
-[axi](https://github.com/pulp-platform/axi)
+[axi](https://github.com/pulp-platform/axi)  
 axi包含了很多的axi标准模块, 我们所需要的是axi2apb
 两个都是sv语法, 不用害怕, 我看过了, 实际上是verilog加上interface而已  
 需要偶尔google下语法, 例如: logic 和 interface是什么(如果你不懂system verilog)  
